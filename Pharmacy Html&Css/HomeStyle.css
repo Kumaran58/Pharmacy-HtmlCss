@@ -1,0 +1,198 @@
+body {
+    margin: 0%;
+}
+
+.navb {
+    width: 100%;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+
+}
+
+.head h1 {
+    background-color: rgb(69, 68, 68);
+    margin: 0%;
+    text-align: center;
+    height: 60px;
+    color: white;
+    padding-top: 20px;
+}
+
+.navb li {
+    display: inline-block;
+}
+
+nav {
+    position: sticky;
+}
+
+.Nav-menu {
+    margin: 0%;
+    background-color: rgba(44, 43, 43, 0.5);
+}
+
+.Nav-menu li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Nav-menu li {
+    padding: 10px;
+    display: inline-block;
+}
+
+.Nav-menu li:hover {
+    background-color: rgba(56, 55, 55, 0.7);
+}
+
+.Nav-menu li:nth-child(2):hover #list_1,
+.Nav-menu li:nth-child(3):hover #list_2 {
+    display: block;
+}
+
+#list_1,
+#list_2 {
+    background-color: rgb(250, 217, 217);
+    padding: 0%;
+    max-width: 150px;
+    display: none;
+    top: 42.5px;
+    position: absolute;
+    width: auto;
+
+}
+
+#list_1 li,
+#list_2 li {
+    display: block;
+}
+
+#list_1 li:hover,
+#list_2 li:hover {
+    background-color: rgb(225, 213, 213);
+}
+
+#list_1 li a,
+#list_2 li a {
+    color: rgb(59, 100, 134);
+    font-size: 16px;
+}
+
+.bord {
+    border: 2px solid steelblue;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.obj {
+    padding: 150px;
+    padding-bottom: 200px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation: move 20s infinite ease-in-out;
+    animation-play-state: running;
+}
+
+@keyframes move {
+    0% {
+        background-image: url(Images/Animation/ani1.jpg);
+    }
+
+    20% {
+        background-image: url(Images/Animation/ani2.png);
+    }
+
+    40% {
+        background-image: url(Images/Animation/ani3.jpg);
+    }
+
+    60% {
+        background-image: url(Images/Animation/ani4.jpg);
+    }
+
+    80% {
+        background-image: url(Images/Animation/ani5.jpg);
+    }
+
+    100% {
+        background-image: url(Images/Animation/ani1.jpg);
+    }
+}
+
+.section {
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: #cfd7df;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+
+}
+
+.card:hover {
+    transform: translateX(10px);
+}
+
+.card-details {
+    padding: 20px;
+}
+
+.card-details h3 {
+    margin-top: 0;
+}
+
+.card-details .text {
+    font-size: larger;
+    color: rgb(36, 36, 207);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.card-details button {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #b2bdca;
+    color: orange;
+    padding: 8px 16px;
+    width: 100%;
+    border: 2px rgb(74, 74, 204) solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-details button:hover {
+    border: 1px rgb(0, 255, 76) solid;
+    background-color: rgb(250, 234, 230)
+}
+
+.foot {
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 35px;
+    padding-top: 12px;
+
+}

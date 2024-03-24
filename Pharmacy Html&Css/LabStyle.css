@@ -1,0 +1,53 @@
+.main {
+    padding-left: 15%;
+    padding-top: 1%;
+    
+}
+
+.container h4 {
+    font-size: larger;
+}
+
+.container input {
+    border: none;
+    border-bottom: 1px black solid;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 600px;
+    width: 85%;
+    overflow-y: scroll;
+    box-shadow: 4px 5px 15px 10px #444;
+
+}
+
+.left-column {
+    padding-left: 10%;
+}
+
+.right-column img {
+    height: 600px;
+    width: auto;
+    position: fixed;
+
+}
+.sub {
+    margin-left: 35%;
+}
+
+button {
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: blueviolet;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+}
+

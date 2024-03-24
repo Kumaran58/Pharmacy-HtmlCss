@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Test</title>
+    <link rel="stylesheet" href="LabStyle.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="left-column">
+                <form action="">
+                    <div>
+                        <h4>1.Your Contact Details</h4>
+                        <div class="in">
+                            <input type="text" placeholder="Full Name">
+                            <input type="text" placeholder="Patient Id if Exists">
+                            <br>
+                            <br>
+                            <input type="text" placeholder="Contact Number">
+                            <input type="text" placeholder="Email id">
+                        </div>
+                        <br>
+
+                        <h4>2. Address</h4>
+                        <div class="in">
+                            <input type="text" placeholder="House-No">
+                            <input type="text" placeholder="Street">
+                            <br>
+                            <br>
+                            <input type="text" placeholder="Area">
+                            <br>
+                            <br>
+
+                            <span > <b>District</b></span> <br />
+                            <br />
+                            <select class="">
+                                <option selected>Choose...</option>
+                                <option value="">Erode</option>
+                                <option value="">Kovai</option>
+                                <option value="">Chennai</option>
+                            </select>
+                        </div>
+                        <br>
+
+                        <h4>3. Choose the Test Type.</h4>
+                        <span>Check at least one box without fail</span>
+                        <div>
+                            <br>
+                            <input type="checkbox" name="test" /> CBC <br>
+                            <input type="checkbox" name="test" /> Complete Urine <br>
+                            <input type="checkbox" name="test" /> Lipid Profile <br>
+                            <input type="checkbox" name="test" /> Thyroid Stimulating Hormone [TSH] <br>
+                            <input type="checkbox" name="test" /> Glucose Test <br>
+                        </div>
+                        <br>
+
+                        <h4>4. Do you want hard copy of report</h4>
+                        <div>
+                            <input type="radio" name="report" /> Yes
+                            <input type="radio" name="report" /> No
+                        </div>
+                        <br>
+
+                        <h4>5. Select your comfortable Date and Time</h4>
+                        <div class="in">
+                            <input class="dt" type="date" name="date" />
+                            <br>
+                            <br>
+                            <input class="dt" type="time" name="time" />
+                            <br>
+                            <br>
+                        </div>
+
+                    </div>
+            </div>
+
+            </form>
+
+            <div class="right-column">
+                <img src="Images/Lab-Test/lab-test.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div>
+            <br>
+            <button class="sub" type="submit">Submit</button>
+            <button class="res" type="reset">Reset</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
